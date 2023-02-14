@@ -8,6 +8,15 @@ interface IProps extends BaseProps {
 const props = defineProps<IProps>()
 </script>
 
+<script lang="ts">
+export default {
+  inheritAttrs: false,
+}
+</script>
+
 <template>
-  <div>Props: {{ JSON.stringify(props, null, 2) }}</div>
+  <div>
+    HellowWorldA Props:<br>
+    {{ JSON.stringify(props, null, 2) }}
+  </div>
 </template>
