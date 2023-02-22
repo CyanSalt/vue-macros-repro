@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import HelloWorldA from './components/HelloWorldA.vue'
-import HelloWorldB from './components/HelloWorldB.vue'
+import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <HelloWorldA :foo="1" bar="abc" />
-  <HelloWorldB :foo="1" bar="abc" />
+  <HelloWorld />
+  <HelloWorld />
 </template>
